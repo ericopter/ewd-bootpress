@@ -1,0 +1,30 @@
+{
+    "name": "bootstrap"
+  , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development."
+  , "version": "3.0.3"
+  , "keywords": ["bootstrap", "css"]
+  , "homepage": "http://getbootstrap.com"
+  , "author": "Twitter, Inc."
+  , "scripts": { "test": "grunt test" }
+  , "repository": {
+      "type": "git"
+    , "url": "https://github.com/twbs/bootstrap.git"
+  }
+  , "bugs": {
+      "url": "https://github.com/twbs/bootstrap/issues"
+  }
+  , "licenses": [
+    {
+        "type": "Apache-2.0"
+      , "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+  , "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0", 
+    "grunt-contrib-copy": "~0.4.1", 
+    "grunt-contrib-uglify": "~0.2.4", 
+    "grunt-recess": "~0.5.0"
+  }
+}
